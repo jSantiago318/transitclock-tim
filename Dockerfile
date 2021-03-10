@@ -3,7 +3,7 @@ MAINTAINER Nathan Walker <nathan@rylath.net>, Sean Óg Crudden <og.crudden@gmail
 
 ARG AGENCYID="1"
 ARG AGENCYNAME="TIM"
-ARG GTFS_URL="https://drive.google.com/uc?export=download&id=1PlvCXNqoETf-ViCOJaX-cjrUDcQBJo7t"
+ARG GTFS_URL="https://drive.google.com/uc?export=download&id=1T8ty1wU0WM1M6EE1YgzHKjbKt39DeZ_-"
 ARG GTFSRTVEHICLEPOSITIONS="http://157.90.145.102/api/positions"
 # ARG GTFSRTVEHICLEPOSITIONS="https://server.traccar.org/api/positions"
 ARG TRANSITCLOCK_PROPERTIES="config/transitclock.properties"
