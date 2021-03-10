@@ -32,3 +32,4 @@ docker-machine ip default
 
 
 
+java -jar onebusaway-quickstart-assembly-1.1.19-api-webapp.war -webapp -gtfsRealtimeTripUpdatesUrl=http://localhost:8080/api/v1/key/f78a2e9a/agency/1/command/gtfs-rt/tripUpdates?format=xml -gtfsRealtimeVehiclePositionsUrl=http://localhost:8080/api/v1/key/f78a2e9a/agency/1/command/gtfs-rt/vehiclePositions?format=xml ..\OBA\ --port=8084
