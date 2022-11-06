@@ -4,7 +4,7 @@ MAINTAINER Nathan Walker <nathan@rylath.net>, Sean Óg Crudden <og.crudden@gmail
 ARG AGENCYID="1"
 ARG AGENCYNAME="TIM"
 ARG GTFS_URL="https://drive.google.com/uc?export=download&id=1ObKPH6IaVcMd42JYnCrvsvKsvZWmwoo0"
-ARG GTFSRTVEHICLEPOSITIONS="http://198.199.84.128:8082/api/positions"
+ARG GTFSRTVEHICLEPOSITIONS="http://167.172.12.82:8082/api/positions"
 # ARG GTFSRTVEHICLEPOSITIONS="https://server.traccar.org/api/positions"
 ARG TRANSITCLOCK_PROPERTIES="config/transitclock.properties"
 
@@ -107,3 +107,4 @@ ADD config/test/* /usr/local/transitclock/config/test/
 EXPOSE 8080
 
 CMD ["/start_transitclock.sh"]
+

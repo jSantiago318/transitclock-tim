@@ -13,7 +13,7 @@ docker build --no-cache -t transitclock-server \
 --build-arg AGENCYID="1" \
 --build-arg AGENCYNAME="TIM" \
 --build-arg GTFS_URL="https://drive.google.com/uc?export=download&id=1ObKPH6IaVcMd42JYnCrvsvKsvZWmwoo0" \
---build-arg GTFSRTVEHICLEPOSITIONS='http://198.199.84.128:8082/api/positions' .
+--build-arg GTFSRTVEHICLEPOSITIONS='http://167.172.12.82:8082/api/positions' .
 
 docker run --name transitclock-db -p 5432:5432 -e POSTGRES_PASSWORD=$PGPASSWORD -d postgres:9.6.3
 
